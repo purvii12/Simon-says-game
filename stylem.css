@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+    font-family: sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+#scoreCard {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.row {
+    display: flex;
+}
+
+.btn {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.green { background-color: #00a74a; }
+.red { background-color: #9f0f17; }
+.yellow { background-color: #f4c20d; }
+.blue { background-color: #094a8f; }
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    opacity: 0.7;
+}
+
+.flash {
+    background-color: white !important;
+}
+
+.game-over {
+    background-color: red;
+}
+
+/* Restart Button */
+#restartButton {
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restartButton:hover {
+    background-color: #45a049;
+}
