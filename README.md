@@ -22,7 +22,7 @@ JavaScript – Game logic, sequence generation, and user interaction<br>
 
 📁 Getting Started:
 Clone the repository:<br>
-git clone https://github.com/yourusername/simon-says-game.git<br>
+git clone https://github.com/yourusername/simon-says-game <br>
 Open the index.html file in your browser.<br>
 Play and enjoy!<br>
 
